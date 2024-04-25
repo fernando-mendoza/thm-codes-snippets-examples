@@ -18,3 +18,9 @@ LastName = 'Defend'
 Rank = 1
 }
 ```
+
+```powershell   
+$myObject.FirstName
+$myObject.LastName
+$myObject.Rank
+```
