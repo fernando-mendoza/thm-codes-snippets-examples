@@ -24,3 +24,12 @@ $myObject.FirstName
 $myObject.LastName
 $myObject.Rank
 ```
+
+In some cases, it may be necessary to create a variable with a specific type. In this case, the type can be specified when creating the variable:
+
+```powershell                    
+[string]$myString = "Hello World"
+[int]$myNumber = 42
+[array]$myArray = 1,2,3,4,5
+```
+In PowerShell, variables can store many different types of data, such as text, number, Boolean, array, hashtable, and even custom objects. These are a result of PowerShell being built on top of the .NET Framework, which means PowerShell can support almost any data type supported by .NET.
